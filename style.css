@@ -1,0 +1,38 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: linear-gradient(to right, #242E3B, #1E1E1E);
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+#subtitle {
+    width: fit-content;
+    background: -webkit-linear-gradient(left, #F50591, #683884, #519FFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#button-action {
+    background-color: transparent; 
+    border: 4px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    border-image: linear-gradient(to right, #F50591, #519FFC) 2;
+}
+
+
+#botao-gradient {
+    
+   background: linear-gradient(to right,#242E3B, #202935) padding-box, linear-gradient(to right, #F50591, #519FFC) border-box;
+   border: 3px solid transparent;
+   position: relative;
+   display: inline-flex;
+   cursor: pointer;
+  }
+

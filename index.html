@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omodei Labs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap"
+    />
+
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="justify-between py-10">
+    <div></div>
+    <div class="flex px-24 h-full">
+      <div class="flex-col">
+        <p class="text-5xl font-light">Tecnologia ao seu serviço</p>
+        <p class="text-7xl font-extrabold my-8" id="subtitle">OMODEI LABS</p>
+        <p class="text-xl max-w-xl">
+          Dedicamo-nos à inovação tecnológica sob medida para elevar o seu
+          negócio, maximizando lucros e impulsionando a receita. Solicite agora
+          a solução perfeita para a sua empresa.
+        </p>
+        <div id="box-btn">
+          <a href="#" class="py-6 px-8 rounded-xl my-10" id="botao-gradient"
+            >Entrar em Contato</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer class="px-24">
+      <div>Copyright © <span id="currentYear"></span> omodei labs</div>
+    </footer>
+
+    <script>
+      document.getElementById('currentYear').innerText =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
