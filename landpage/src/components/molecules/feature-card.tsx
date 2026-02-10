@@ -15,7 +15,7 @@ export function FeatureCard({ icon: Icon, title, description, className }: Featu
     <Card className={cn("group h-full", className)}>
       <CardContent>
         <div className="mb-4 flex items-center justify-start">
-          <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-[#6B7D5B]/25 to-[#8B7765]/25 text-[#6B7D5B] transition-transform duration-300 group-hover:scale-105">
+          <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-[#8A52D1]/25 to-[#519FFC]/25 text-[#8A52D1] transition-transform duration-300 group-hover:scale-105">
             <Icon className="h-7 w-7" aria-hidden />
           </div>
         </div>

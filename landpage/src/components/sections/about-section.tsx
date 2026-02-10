@@ -40,9 +40,9 @@ export function AboutSection() {
         </div>
 
         <RevealOnScroll>
-          <div className='space-y-6 rounded-3xl border border-[#6B7D5B]/20 bg-[#2A2A2A]/50 p-8 text-left text-[#E8E1D9]/90 backdrop-blur-sm md:p-12'>
+          <div className='space-y-6 rounded-3xl border border-[#8A52D1]/20 bg-[#2A2A2A]/50 p-8 text-left text-[#E8E1D9]/90 backdrop-blur-sm md:p-12'>
             <p>
-              A <span className='text-[#6B7D5B]'>Omodei Labs</span> nasceu com o
+              A <span className='text-[#8A52D1]'>Omodei Labs</span> nasceu com o
               propósito de conectar tecnologia e resultado. Combinamos
               estratégia, design e engenharia para desenvolver software que
               resolve problemas reais de empresas em crescimento.

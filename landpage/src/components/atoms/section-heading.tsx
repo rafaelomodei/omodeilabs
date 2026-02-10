@@ -18,7 +18,7 @@ export function SectionHeading({
         className,
       )}
     >
-      {children} {highlight ? <span className="text-[#6B7D5B]">{highlight}</span> : null}
+      {children} {highlight ? <span className="bg-gradient-to-r from-[#F50591] via-[#8A52D1] to-[#519FFC] bg-clip-text text-transparent">{highlight}</span> : null}
     </h2>
   );
 }

@@ -10,7 +10,6 @@ const NAV_ITEMS = [
   { id: 'hero', label: 'Início' },
   { id: 'solucoes', label: 'Soluções' },
   { id: 'sobre', label: 'Sobre' },
-  { id: 'equipe', label: 'Equipe' },
 ];
 
 export function Navbar() {
@@ -46,7 +45,7 @@ export function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-500 ${
         isScrolled
-          ? 'border-b border-[#6B7D5B]/20 bg-[#0F0F0F]/90 backdrop-blur-xl'
+          ? 'border-b border-[#8A52D1]/20 bg-[#0F0F0F]/90 backdrop-blur-xl'
           : 'bg-transparent'
       }`}
     >
@@ -66,10 +65,10 @@ export function Navbar() {
               key={item.id}
               type='button'
               onClick={() => handleScrollTo(item.id)}
-              className='relative text-sm font-medium text-[#E8E1D9] transition-colors duration-300 hover:text-[#6B7D5B]'
+              className='relative text-sm font-medium text-[#E8E1D9] transition-colors duration-300 hover:text-[#8A52D1]'
             >
               {item.label}
-              <span className='absolute -bottom-1 left-0 h-0.5 w-0 bg-[#6B7D5B] transition-all duration-300 hover:w-full' />
+              <span className='absolute -bottom-1 left-0 h-0.5 w-0 bg-[#8A52D1] transition-all duration-300 hover:w-full' />
             </button>
           ))}
         </nav>
@@ -95,7 +94,7 @@ export function Navbar() {
         }`}
       >
         <div
-          className={`border-t border-[#6B7D5B]/20 bg-[#111111]/95 backdrop-blur-xl ${
+          className={`border-t border-[#8A52D1]/20 bg-[#111111]/95 backdrop-blur-xl ${
             isMenuOpen ? 'px-6 py-6' : 'px-6 py-0'
           }`}
         >
@@ -105,7 +104,7 @@ export function Navbar() {
                 key={item.id}
                 type='button'
                 onClick={() => handleScrollTo(item.id)}
-                className='text-left text-base font-medium text-[#E8E1D9] transition-colors duration-200 hover:text-[#6B7D5B]'
+                className='text-left text-base font-medium text-[#E8E1D9] transition-colors duration-200 hover:text-[#8A52D1]'
               >
                 {item.label}
               </button>

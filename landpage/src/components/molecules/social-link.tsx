@@ -25,7 +25,7 @@ export function SocialLink({
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "relative inline-flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border text-sm font-medium transition-transform duration-300 hover:scale-[1.07] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6B7D5B]/50",
+        "relative inline-flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border text-sm font-medium transition-transform duration-300 hover:scale-[1.07] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8A52D1]/50",
         borderColor,
         backgroundColor,
         className,

@@ -17,7 +17,7 @@ const PRIMARY_LIGHTS: LightConfig[] = [
   {
     id: 'primary-1',
     className:
-      'bg-[radial-gradient(circle,rgba(107,125,91,0.28)_0%,rgba(107,125,91,0.12)_45%,transparent_75%)]',
+      'bg-[radial-gradient(circle,rgba(245,5,145,0.26)_0%,rgba(104,56,132,0.14)_45%,transparent_75%)]',
     top: '8vh',
     left: '12vw',
     size: '26rem',
@@ -29,7 +29,7 @@ const PRIMARY_LIGHTS: LightConfig[] = [
   {
     id: 'primary-2',
     className:
-      'bg-[radial-gradient(circle,rgba(107,125,91,0.28)_0%,rgba(107,125,91,0.12)_45%,transparent_75%)]',
+      'bg-[radial-gradient(circle,rgba(245,5,145,0.26)_0%,rgba(104,56,132,0.14)_45%,transparent_75%)]',
     top: '42vh',
     left: '65vw',
     size: '24rem',
@@ -42,7 +42,7 @@ const PRIMARY_LIGHTS: LightConfig[] = [
   {
     id: 'primary-3',
     className:
-      'bg-[radial-gradient(circle,rgba(107,125,91,0.28)_0%,rgba(107,125,91,0.12)_45%,transparent_75%)]',
+      'bg-[radial-gradient(circle,rgba(245,5,145,0.26)_0%,rgba(104,56,132,0.14)_45%,transparent_75%)]',
     top: '68vh',
     left: '10vw',
     size: '22rem',
@@ -58,7 +58,7 @@ const ACCENT_LIGHTS: LightConfig[] = [
   {
     id: 'accent-1',
     className:
-      'bg-[radial-gradient(circle,rgba(139,119,101,0.22)_0%,rgba(139,119,101,0.1)_45%,transparent_75%)]',
+      'bg-[radial-gradient(circle,rgba(81,159,252,0.22)_0%,rgba(81,159,252,0.1)_45%,transparent_75%)]',
     top: '20vh',
     left: '58vw',
     size: '20rem',
@@ -70,7 +70,7 @@ const ACCENT_LIGHTS: LightConfig[] = [
   {
     id: 'accent-2',
     className:
-      'bg-[radial-gradient(circle,rgba(139,119,101,0.22)_0%,rgba(139,119,101,0.1)_45%,transparent_75%)]',
+      'bg-[radial-gradient(circle,rgba(81,159,252,0.22)_0%,rgba(81,159,252,0.1)_45%,transparent_75%)]',
     top: '55vh',
     left: '32vw',
     size: '18rem',
@@ -90,7 +90,7 @@ export function AnimatedBackground() {
           width='100%'
           height='100%'
           xmlns='http://www.w3.org/2000/svg'
-          className='text-[#6B7D5B]'
+          className='text-[#8A52D1]'
         >
           <defs>
             <pattern
