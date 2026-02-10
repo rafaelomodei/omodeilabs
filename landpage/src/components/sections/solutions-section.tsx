@@ -52,15 +52,15 @@ export function SolutionsSection() {
 
             return (
               <RevealOnScroll key={solution.title} delay={index * 120}>
-                <article className='group h-full rounded-2xl border border-[#6B7D5B]/20 bg-[#2A2A2A]/40 p-7 backdrop-blur-sm transition-all duration-500 hover:border-[#6B7D5B]/50'>
-                  <div className='mb-5 inline-flex rounded-xl border border-[#6B7D5B]/25 bg-[#6B7D5B]/10 p-3 text-[#6B7D5B]'>
+                <article className='group h-full rounded-2xl border border-[#8A52D1]/20 bg-[#2A2A2A]/40 p-7 backdrop-blur-sm transition-all duration-500 hover:border-[#8A52D1]/50'>
+                  <div className='mb-5 inline-flex rounded-xl border border-[#8A52D1]/25 bg-[#8A52D1]/10 p-3 text-[#8A52D1]'>
                     <Icon className='h-6 w-6' />
                   </div>
                   <h3 className='mb-3 text-xl font-semibold text-[#E8E1D9]'>
                     {solution.title}
                   </h3>
                   <p className='mb-6 text-[#E8E1D9]/80'>{solution.description}</p>
-                  <p className='text-sm font-semibold uppercase tracking-[0.14em] text-[#6B7D5B]'>
+                  <p className='text-sm font-semibold uppercase tracking-[0.14em] text-[#8A52D1]'>
                     {solution.metric}
                   </p>
                 </article>
