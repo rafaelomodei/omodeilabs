@@ -3,7 +3,7 @@ import { Navbar } from '@/components/organisms/navbar';
 import { AboutSection } from '@/components/sections/about-section';
 import { Footer } from '@/components/sections/footer';
 import { HeroSection } from '@/components/sections/hero-section';
-import { ProductsSection } from '@/components/sections/products-section';
+import { SolutionsSection } from '@/components/sections/solutions-section';
 import { TeamSection } from '@/components/sections/team-section';
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
       <main className='relative z-10 flex flex-col gap-0'>
         <HeroSection />
-        <ProductsSection />
+        <SolutionsSection />
         <AboutSection />
         <TeamSection />
         <AnimatedBackground />

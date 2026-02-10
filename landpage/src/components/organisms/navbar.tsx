@@ -3,12 +3,12 @@
 import { Menu, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
+import { BrandWordmark } from '@/components/atoms/brand-wordmark';
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
 
 const NAV_ITEMS = [
   { id: 'hero', label: 'Início' },
-  { id: 'produtos', label: 'Produtos' },
+  { id: 'solucoes', label: 'Soluções' },
   { id: 'sobre', label: 'Sobre' },
   { id: 'equipe', label: 'Equipe' },
 ];
@@ -55,13 +55,9 @@ export function Navbar() {
           type='button'
           onClick={() => handleScrollTo('hero')}
           className='transition-transform duration-300 hover:scale-[1.03]'
+          aria-label='Voltar ao topo'
         >
-          <Image
-            src='svg/logo-verdeforma.svg'
-            height={32}
-            width={182}
-            alt='logo verde forma'
-          />
+          <BrandWordmark className='text-sm md:text-base' />
         </button>
 
         <nav className='hidden items-center gap-8 md:flex'>
@@ -87,16 +83,12 @@ export function Navbar() {
           aria-label='Abrir menu'
           aria-expanded={isMenuOpen}
         >
-          {isMenuOpen ? (
-            <X className='h-5 w-5' />
-          ) : (
-            <Menu className='h-5 w-5' />
-          )}
+          {isMenuOpen ? <X className='h-5 w-5' /> : <Menu className='h-5 w-5' />}
         </Button>
       </div>
 
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ${
+        className={`overflow-hidden transition-all duration-300 md:hidden ${
           isMenuOpen
             ? 'pointer-events-auto max-h-[24rem] opacity-100'
             : 'pointer-events-none max-h-0 opacity-0'

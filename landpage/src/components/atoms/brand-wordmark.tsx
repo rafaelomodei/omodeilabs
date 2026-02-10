@@ -6,9 +6,13 @@ interface BrandWordmarkProps {
 
 export function BrandWordmark({ className }: BrandWordmarkProps) {
   return (
-    <span className={cn('font-semibold tracking-[0.4em] text-lg', className)}>
-      <span className='text-[#E8E1D9]'>VERDE</span>
-      <span className='text-[#E8E1D9]'> FORMA</span>
+    <span
+      className={cn(
+        'bg-gradient-to-r from-[#F50591] via-[#683884] to-[#519FFC] bg-clip-text text-lg font-extrabold tracking-[0.25em] text-transparent',
+        className,
+      )}
+    >
+      OMODEI LABS
     </span>
   );
 }
