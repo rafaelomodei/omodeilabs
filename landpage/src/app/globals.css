@@ -60,6 +60,7 @@
   }
 
   body {
+    font-family: 'Montserrat', 'Inter', 'Segoe UI', sans-serif;
     @apply bg-background text-foreground antialiased;
   }
 }

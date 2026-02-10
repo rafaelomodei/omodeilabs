@@ -9,7 +9,7 @@ const TEAM = [
     role: "CTO",
     image: "/png/rafael-omodei-cto.png",
     description:
-      "Especialista em tecnologia e impressão 3D, Rafael lidera a inovação técnica da Verde Forma.",
+      "Especialista em tecnologia e impressão 3D, Rafael lidera a inovação técnica da Omodei Labs.",
     linkedin: "https://www.linkedin.com/in/rafael-omodei/",
   },
   {
@@ -17,7 +17,7 @@ const TEAM = [
     role: "CMO",
     image: "/png/joao-pedro-martins-cmo.png",
     description:
-      "Visionário criativo e estrategista, João Pedro conduz a marca Verde Forma ao mercado.",
+      "Visionário criativo e estrategista, João Pedro conduz posicionamento e crescimento da Omodei Labs.",
     linkedin: "https://www.linkedin.com/in/joao-pedro-9a1328247/",
   },
 ] as const;
@@ -35,7 +35,7 @@ export function TeamSection() {
           </RevealOnScroll>
           <RevealOnScroll delay={300}>
             <p className="mt-4 text-lg text-[#B8A896]">
-              Conheça as mentes por trás da Verde Forma, unindo tecnologia e criatividade para transformar espaços.
+              Conheça as mentes por trás da Omodei Labs, unindo tecnologia e criatividade para transformar negócios.
             </p>
           </RevealOnScroll>
         </div>
