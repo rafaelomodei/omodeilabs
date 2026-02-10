@@ -10,7 +10,6 @@ const NAV_ITEMS = [
   { id: 'hero', label: 'Início' },
   { id: 'solucoes', label: 'Soluções' },
   { id: 'sobre', label: 'Sobre' },
-  { id: 'equipe', label: 'Equipe' },
 ];
 
 export function Navbar() {

@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, MessageCircle } from 'lucide-react';
+import { Instagram, MessageCircle } from 'lucide-react';
 
 import { GradientDivider } from '@/components/atoms/gradient-divider';
 import { BrandWordmark } from '@/components/atoms/brand-wordmark';
@@ -54,13 +54,6 @@ export function HeroSection() {
               label='Visitar Instagram'
               borderColor='border-[#E4405F]/40'
               backgroundColor='bg-[#E4405F]/20 text-[#E4405F]'
-            />
-            <SocialLink
-              icon={Linkedin}
-              href='https://www.linkedin.com/company/omodei-labs'
-              label='Visitar LinkedIn'
-              borderColor='border-[#0A66C2]/40'
-              backgroundColor='bg-[#0A66C2]/20 text-[#0A66C2]'
             />
           </div>
         </RevealOnMount>

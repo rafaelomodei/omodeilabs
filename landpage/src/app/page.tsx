@@ -4,7 +4,7 @@ import { AboutSection } from '@/components/sections/about-section';
 import { Footer } from '@/components/sections/footer';
 import { HeroSection } from '@/components/sections/hero-section';
 import { SolutionsSection } from '@/components/sections/solutions-section';
-import { TeamSection } from '@/components/sections/team-section';
+// import { TeamSection } from '@/components/sections/team-section';
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <HeroSection />
         <SolutionsSection />
         <AboutSection />
-        <TeamSection />
+        {/* <TeamSection /> */}
         <AnimatedBackground />
       </main>
       <Footer />
